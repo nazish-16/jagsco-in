@@ -1,8 +1,13 @@
+import Homepage from '@/Components/Homepage';
+import Navbar from '@/Components/Navbar'
 
 export default function Home() {
   return (
-    <main className="h-screen bg-black text-white">
-      <h1>helo world</h1>
-    </main>
+    <div>
+      <main className="background">
+        <Navbar />
+        <Homepage />
+      </main>
+    </div>
   );
 }
