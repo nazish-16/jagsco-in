@@ -16,7 +16,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </section>
-            <section className='relative bottom-[-280px] lg:bottom-[-460px] items-center justify-center flex flex-col animate-pulse'>
+            <section className='relative bottom-[-280px] sm:bottom-[-430px] items-center justify-center flex flex-col animate-pulse'>
                 <h1 className='text-white text-md xl:text-lg'>Scroll down</h1>
                 <img src="https://img.icons8.com/?size=100&id=85018&format=png&color=FFFFFF" alt="down-arrow" width={30} className='top-1 relative animate-bounce' />
             </section>
