@@ -7,29 +7,12 @@ import icon from '../app/images/icon.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [navbarBg, setNavbarBg] = useState('bg-transparent');
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setNavbarBg('bg-black');
-            } else {
-                setNavbarBg('bg-transparent');
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     return (
-        <nav className={`fixed top-0 left-0 w-full z-50 opacity-100 transition-colors duration-300 ${navbarBg}`}>
+        <nav className={`relative top-0 left-0 w-full z-50 opacity-100 transition-colors duration-300`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
@@ -49,10 +32,13 @@ const Navbar = () => {
                                 <Link href="#context" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Services</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">About Us</Link>
+                                <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">About Us</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Brands</Link>
+                            </li>
+                            <li>
+                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Contact Us</Link>
@@ -88,10 +74,13 @@ const Navbar = () => {
                                 <Link href="#context" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Services</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">About Us</Link>
+                                <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">About Us</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Brands</Link>
+                            </li>
+                            <li>
+                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Contact Us</Link>
