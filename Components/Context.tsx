@@ -13,12 +13,12 @@ const Context = () => {
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6'>
                 <div className='flex flex-col p-10 items-center justify-center rounded-lg m-1 transition'>
                     <Image src={type1} alt="" className='w-[130px] h-[130px] sm:w-[170px] sm:h-[170px] rounded-full hover:scale-105 transition ease-in-out duration-200 cursor-pointer' />
-                    <h1 className='p-4 text-2xl font-normal tracking-wide text-center'>Interior Designing</h1>
+                    <h1 className='p-4 text-2xl font-normal tracking-wide text-center'>Furnishing</h1>
                     <p className='max-w-lg text-center text-md text-gray-700'>Jagsco Marble specializes in providing high-quality marble for various interior design needs.</p>
                 </div>
                 <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
                     <Image src={type2} alt="#" className='w-[130px] h-[130px] sm:w-[170px] sm:h-[170px] rounded-full hover:scale-105 transition ease-in-out duration-200 cursor-pointer' />
-                    <h1 className='p-4 text-2xl font-normal tracking-wide text-center'>Modular Kitchens</h1>
+                    <h1 className='p-4 text-2xl font-normal tracking-wide text-center'>Modules</h1>
                     <p className='max-w-lg text-center text-md text-gray-700'>Our modular kitchen designs emphasize elegance, practicality, and innovation. By integrating high-quality marble.</p>
                 </div>
                 <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
