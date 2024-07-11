@@ -35,10 +35,10 @@ const Navbar = () => {
                                 <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">About Us</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Brands</Link>
+                                <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
+                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Brands</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Contact Us</Link>
@@ -77,10 +77,10 @@ const Navbar = () => {
                                 <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">About Us</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Brands</Link>
+                                <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
+                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Brands</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Contact Us</Link>

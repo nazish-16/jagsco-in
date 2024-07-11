@@ -15,12 +15,12 @@ body{
 }
 ::-moz-selection{
     color: white;
-    background: black;
+    background: rgba(0, 0, 0, 0.619);
   }
   
   ::selection {
     color: white;
-    background: black;
+    background: rgba(0, 0, 0, 0.619);
   }
 
   ::-webkit-scrollbar {
