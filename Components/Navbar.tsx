@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Brands</Link>
+                                <Link href="#brands" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Brands</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Contact Us</Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
                                 <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Brands</Link>
+                                <Link href="#brands" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Brands</Link>
                             </li>
                             <li>
                                 <Link href="#" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Contact Us</Link>

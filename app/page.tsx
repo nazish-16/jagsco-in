@@ -1,4 +1,5 @@
 import About from '@/Components/About';
+import Accomplishments from '@/Components/Accomplishments';
 import Brands from '@/Components/Brands';
 import Context from '@/Components/Context';
 import Homepage from '@/Components/Homepage';
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <ImageSlider />
       <Brands />
+      <Accomplishments />
     </div>
   );
 }
