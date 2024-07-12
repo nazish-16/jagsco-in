@@ -30,7 +30,7 @@ const Accomplishments = () => {
                 </div>
                 <div className='flex flex-row justify-center items-center m-6'>
                     <img src="https://img.icons8.com/?size=100&id=33295&format=png&color=000000" alt="awards" className='w-[40px] m-2' />
-                    <h1><strong>2</strong> Company Branches</h1>
+                    <h1><strong>2</strong> Outlets</h1>
                 </div>
             </div>
         </div>
