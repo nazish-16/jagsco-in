@@ -15,7 +15,7 @@ const Brands = () => {
                 <h1 className='p-4 text-3xl font-normal text-center mb-3'>Cooperated brands</h1>
                 <p className='max-w-5xl text-center text-md text-gray-700 mb-10'>At Jagsco, we pride ourselves on collaborating with some of the most esteemed brands in the marble and stone industry. Our partnerships with leading names such as Somany, Hettich, Haffle and many others with access to a curated selection of premium materials renowned for their quality and elegance.</p>
             </section>
-            <section className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3  items-center justify-center mb-28'>
+            <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  items-center justify-center mb-28'>
                 <Link href="https://www.somanyceramics.com/">
                     <Image alt='img' src={somany} width={300} className='m-3 hover:scale-105 transition ease-in-out duration-200' />
                 </Link>
