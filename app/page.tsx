@@ -7,6 +7,7 @@ import ImageSlider from '@/Components/ImageSlider';
 import Navbar from '@/Components/Navbar'
 import Footer from '@/Components/Footer';
 import Contact from '@/Components/Contact';
+import Store from '@/Components/Store';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Context />
       <About />
       <ImageSlider />
+      <Store />
       <Brands />
       <Accomplishments />
       <Contact />
