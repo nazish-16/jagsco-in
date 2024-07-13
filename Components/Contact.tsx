@@ -5,10 +5,7 @@ const Contact = () => (
         <div className="flex flex-col items-center justify-center">
             <h1 className="text-3xl text-center m-4">Contact with us</h1>
             <p className="hidden sm:flex max-w-3xl text-center m-4">
-                Experience elegance at Sayedia Curtains Gallery. From bespoke curtains
-                to expert interior advice, we're here to transform your space. Contact
-                us today to schedule a consultation and elevate your home or business
-                with our tailored solutions and impeccable service.
+                At Jagsco Marble, we pride ourselves on delivering the finest quality marble to meet your design and construction needs. Whether you're looking for classic elegance or contemporary styles, our expert team is here to assist you.
             </p>
         </div>
         <div className="flex flex-col xl:flex-row items-center justify-center">
