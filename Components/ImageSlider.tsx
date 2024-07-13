@@ -30,7 +30,7 @@ const ImageSlider = () => {
             <div className="flex items-center justify-center overflow-hidden">
                 <button
                     onClick={prevSlide}
-                    className="absolute left-0 top-[440px] sm:top-[360px] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 z-10"
+                    className="absolute left-0 top-[460px] sm:top-[360px] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 z-10"
                 >
                     &lt;
                 </button>
@@ -57,7 +57,7 @@ const ImageSlider = () => {
                 </div>
                 <button
                     onClick={nextSlide}
-                    className="absolute right-0 top-[440px] sm:top-[360px] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 z-10"
+                    className="absolute right-0 top-[460px] sm:top-[360px] transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 z-10"
                 >
                     &gt;
                 </button>

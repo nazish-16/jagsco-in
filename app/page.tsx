@@ -5,6 +5,8 @@ import Context from '@/Components/Context';
 import Homepage from '@/Components/Homepage';
 import ImageSlider from '@/Components/ImageSlider';
 import Navbar from '@/Components/Navbar'
+import Footer from '@/Components/Footer';
+import Contact from '@/Components/Contact';
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <ImageSlider />
       <Brands />
       <Accomplishments />
+      <Contact />
+      <Footer />
     </div>
   );
 }
