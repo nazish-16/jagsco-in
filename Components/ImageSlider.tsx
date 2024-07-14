@@ -26,7 +26,7 @@ const ImageSlider = () => {
     return (
         <div className="relative w-full max-w-7xl mx-auto flex flex-col items-center justify-center" id="projects">
             <h1 className='p-4 text-3xl font-normal text-center mb-3'>Projects</h1>
-            <p className='max-w-5xl text-center text-md text-gray-700 mb-10'>At Jagsco, we pride ourselves on collaborating with some of the most esteemed brands in the marble and stone industry. Our partnerships with leading names such as Somany, Hettich, Haffle and many others with access to a curated selection of premium materials renowned for their quality and elegance.</p>
+            <p className='max-w-5xl text-center text-md text-gray-700 mb-10'>Transforming homes with exquisite marble flooring, adding a touch of elegance and luxury to living spaces. Providing high-quality marble countertops for kitchens and bathrooms, ensuring durability and aesthetic appeal.</p>
             <div className="flex items-center justify-center overflow-hidden">
                 <button
                     onClick={prevSlide}
