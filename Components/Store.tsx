@@ -12,7 +12,7 @@ const Store = () => {
                         inspired from wherever you are.
                     </p>
                 </div>
-                <div className="m-8 max-w-screen-xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 px-4 items-center justify-center">
+                <div className="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 px-4">
                     <div className="overflow-hidden rounded-lg">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!4v1720905982765!6m8!1m7!1sCAoSLEFGMVFpcE00OE85T1hjNkhWaEJ0U3QtR2VncUVFamV2eDdIU3VtNEU0UE5k!2m2!1d17.407022!2d78.40310579999999!3f100!4f0!5f0.7820865974627469"

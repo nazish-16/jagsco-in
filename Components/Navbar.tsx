@@ -21,7 +21,7 @@ const Navbar = () => {
                             <Image src={icon} alt="icon" width={30} height={30} />
                         </a>
                         <div className="ml-2 md:block">
-                            <a className="text-white text-xl font-bold underline underline-offset-1" href="#">Jagsco Interiors</a>
+                            <a className="text-white text-xl font-bold" href="#">Jagsco Interiors</a>
                         </div>
                     </div>
                     <div className="hidden lg:flex md:ml-6">
@@ -74,7 +74,7 @@ const Navbar = () => {
                             <Link href="#context" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Services</Link>
                         </li>
                         <li className="animate-slide-in">
-                            <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">About Us</Link>
+                            <Link href="#about" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">About Us</Link>
                         </li>
                         <li className="animate-slide-in">
                             <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out">Projects</Link>
