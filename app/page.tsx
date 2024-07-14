@@ -12,7 +12,7 @@ import Store from '@/Components/Store';
 export default function Home() {
   return (
     <div>
-      <main className="background">
+      <main className="background h-screen md:h-[1000px] lg:h-screen">
         <Navbar />
         <Homepage />
       </main>
