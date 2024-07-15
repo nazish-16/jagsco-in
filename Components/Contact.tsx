@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Contact = () => (
     <div className="p-8" id="contact">
@@ -9,7 +10,7 @@ const Contact = () => (
             </p>
         </div>
         <div className="flex flex-col xl:flex-row items-center justify-center">
-            <div className="hidden md:flex flex-col p-12 items-center">
+            <div className="hidden md:flex flex-col pl-12 items-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15228.397164369904!2d78.40310579999999!3d17.407022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9769d67653cf%3A0xedc8eb32768b7f62!2sJagsco%20Interiors!5e0!3m2!1sen!2sin!4v1720851590291!5m2!1sen!2sin"
                     width="400"
@@ -103,24 +104,24 @@ const Contact = () => (
                 </div>
             </form>
             <div className="flex flex-col border-2 border-[#eee] rounded-md">
-                <h1 className="p-5 text-black font-medium">Jagsco Interiors</h1>
+                <h1 className="p-5 text-black font-medium text-xl underline underline-offset-1">Jagsco Interiors</h1>
                 <div className="bg-white p-5 flex flex-row  space-x-1 items-center justify-center">
                     <img src="https://img.icons8.com/?size=100&id=41651&format=png&color=000000" alt="home" className="w-8 h-8" />
                     <h1 className="max-w-sm pl-5">Anand Vihar Complex, Shop No.6, #8-1-329/1, Shaikpet, Tolichowki, Hyderabad - 500008, Telangana, India.</h1>
                 </div>
                 <div className="bg-white p-5 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=ys7uxdxrK9MF&format=png&color=000000" alt="home" className="w-10" />
-                    <h1>Phone: +91-9030456013</h1>
+                    <Link href="#">Phone: +91-9030456013</Link>
                 </div>
                 <div className="bg-white p-5 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=12921&format=png&color=000000" alt="home" className="w-10" />
-                    <h1>
-                        Mobile: +91-8919277716</h1>
+                    <Link href="#">
+                        Mobile: +91-8919277716</Link>
                 </div>
                 <div className="bg-white p-5 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="home" className="w-10" />
-                    <h1>
-                        info.jagsco@gmail.com</h1>
+                    <Link href="#">
+                        info.jagsco@gmail.com</Link>
                 </div>
             </div>
         </div>

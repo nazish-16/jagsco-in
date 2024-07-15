@@ -41,8 +41,21 @@ body{
         transform: translateY(0);
     }
 }
+@keyframes slide-in-icon {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity:1;
+      transform: translateY(0);
+  }
+}
 .animate-slide-in {
     animation: slide-in 0.5s ease-in-out;
+}
+.slide-in-icon{
+  animation: slide-in-icon 0.3s ease-in-out;
 }
 .cursor {
   position: fixed;
@@ -54,7 +67,6 @@ body{
   transition: transform 0.2s ease-in-out;
   mix-blend-mode: difference;
 }
-
 .cursor-inner {
   width: 100%;
   height: 100%;
@@ -62,7 +74,6 @@ body{
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
 }
-
 .cursor-inner.hover {
   transform: scale(1.5);
 }
