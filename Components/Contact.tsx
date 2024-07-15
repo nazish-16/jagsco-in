@@ -5,8 +5,8 @@ const Contact = () => (
     <div className="p-8" id="contact">
         <div className="flex flex-col items-center justify-center">
             <h1 className="text-3xl text-center m-4">Contact with us</h1>
-            <p className="hidden sm:flex max-w-3xl text-center m-4">
-                At Jagsco Marble, we pride ourselves on delivering the finest quality marble to meet your design and construction needs. Whether you're looking for classic elegance or contemporary styles, our expert team is here to assist you.
+            <p className="max-w-5xl text-center m-4">
+                Contact Jagsco Marble for top-quality marble solutions. Our expert team is ready to assist with all your design and construction needs, ensuring exceptional results.
             </p>
         </div>
         <div className="flex flex-col lg:flex-row xl:flex-row items-center justify-center">

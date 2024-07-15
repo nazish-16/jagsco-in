@@ -5,7 +5,7 @@ const Accomplishments = () => {
         <div className='flex flex-col items-center justify-center mb-10'>
             <div>
                 <h1 className='p-4 text-3xl font-normal text-center mb-3'>Milestones</h1>
-                <p className='max-w-5xl text-center text-md text-gray-700 mb-10'>Leading the way in interior designing. Since our inception, we have focused on delivering the highest quality marble products and exceptional customer service, and our dedication has yielded remarkable results.Each milestone represents our unwavering commitment to quality, innovation, and customer satisfaction.</p>
+                <p className='max-w-5xl text-center text-md text-gray-700 m-6'>Leading the way in interior designing. Since our inception, we have focused on delivering the highest quality marble products and exceptional customer service, and our dedication has yielded remarkable results.Each milestone represents our unwavering commitment to quality, innovation, and customer satisfaction.</p>
             </div>
             <div className='grid grid-cols-2 lg:grid-cols-3 justify-center items-center'>
                 <div className='flex flex-row justify-center items-center m-6'>
