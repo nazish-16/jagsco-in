@@ -24,28 +24,28 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center'>
-                    <h1 className='text-xl text-center font-medium'>Interior Designing</h1>
+                <div className='hidden lg:flex flex-col items-center justify-center p-3 xl:p-0'>
+                    <h1 className='text-xl text-center font-medium'>Interiors</h1>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Cabinet</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Cupboards</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Farmhouse</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Industrial</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center'>
+                <div className='hidden lg:flex flex-col items-center justify-center p-3 xl:p-0'>
                     <h1 className='text-xl text-center font-medium'>Modular</h1>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Furniture</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Homes</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Office</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Closets</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center'>
+                <div className='hidden lg:flex flex-col items-center justify-center p-3 xl:p-0'>
                     <h1 className='text-xl text-center font-medium'>Appliances</h1>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Kitchen</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Laundry</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Heating</Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Cleaning</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center'>
+                <div className='hidden lg:flex flex-col items-center justify-center p-3 xl:p-0'>
                     <h1 className='text-xl text-center font-medium'>Wardrobe</h1>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Built-in </Link>
                     <Link href="/" className='mt-4 hover:text-opacity-60 transition duration-300 ease-in-out'>Sliding Door</Link>
