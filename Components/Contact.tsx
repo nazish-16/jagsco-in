@@ -12,15 +12,15 @@ const Contact = () => (
             <div className="hidden md:flex flex-col p-12 items-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15228.397164369904!2d78.40310579999999!3d17.407022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9769d67653cf%3A0xedc8eb32768b7f62!2sJagsco%20Interiors!5e0!3m2!1sen!2sin!4v1720851590291!5m2!1sen!2sin"
-                    width="600"
-                    height="500"
+                    width="400"
+                    height="400"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
-            <form className="space-y-3 w-full max-w-md p-6 bg-white shadow-lg rounded-md">
+            <form className="space-y-3 w-[400px] m-6 p-6 bg-white shadow-lg rounded-md">
                 <div>
                     <label
                         htmlFor="name"
@@ -102,6 +102,27 @@ const Contact = () => (
                     </button>
                 </div>
             </form>
+            <div className="flex flex-col border-2 border-[#eee] rounded-md">
+                <h1 className="p-5 text-black font-medium">Jagsco Interiors</h1>
+                <div className="bg-white p-5 flex flex-row  space-x-1 items-center justify-center">
+                    <img src="https://img.icons8.com/?size=100&id=41651&format=png&color=000000" alt="home" className="w-8 h-8" />
+                    <h1 className="max-w-sm pl-5">Anand Vihar Complex, Shop No.6, #8-1-329/1, Shaikpet, Tolichowki, Hyderabad - 500008, Telangana, India.</h1>
+                </div>
+                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                    <img src="https://img.icons8.com/?size=100&id=ys7uxdxrK9MF&format=png&color=000000" alt="home" className="w-10" />
+                    <h1>Phone: +91-9030456013</h1>
+                </div>
+                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                    <img src="https://img.icons8.com/?size=100&id=12921&format=png&color=000000" alt="home" className="w-10" />
+                    <h1>
+                        Mobile: +91-8919277716</h1>
+                </div>
+                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                    <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="home" className="w-10" />
+                    <h1>
+                        info.jagsco@gmail.com</h1>
+                </div>
+            </div>
         </div>
     </div>
 );
