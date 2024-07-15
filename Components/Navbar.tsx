@@ -33,7 +33,7 @@ const Navbar = () => {
                                 <Link href="#context" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Services</Link>
                             </li>
                             <li>
-                                <Link href="#company" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">About Us</Link>
+                                <Link href="#about" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">About Us</Link>
                             </li>
                             <li>
                                 <Link href="#projects" className="text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Projects</Link>
