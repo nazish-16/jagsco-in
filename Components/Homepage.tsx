@@ -6,7 +6,7 @@ const Homepage = () => {
             <section className="text-white py-20 relative top-[130px] sm:top-[180px]">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="text-3xl md:text-5xl font-bold text-center mb-8">Welcome to <span className='text-[#eee] underline underline-offset-1'>Jagsco Interiors</span></h1>
+                        <h1 className="text-3xl md:text-5xl font-bold text-center mb-8">Experience <span className='text-[#eee] underline underline-offset-1'>Jagsco Interiors</span></h1>
                         <p className="text-md md:text-lg text-center mb-8 max-w-3xl xl:max-w-5xl">Jagsco Interiors, your premier destination for exquisite marble and stone solutions. At Jagsco, we specialize in sourcing, crafting, and delivering the finest quality marble and stone products to transform your spaces into timeless masterpieces.</p>
                         <div>
                             <a href="#context" className="bg-white text-black px-10 py-3 rounded-lg font-medium transition duration-300 ease-in-out hover:bg-opacity-70 m-4">Explore</a>
