@@ -28,7 +28,7 @@ const Homepage = () => {
     return (
         <div>
             <div className='flex flex-row items-center justify-center'>
-                <section className="text-white py-20 relative top-[140px] sm:top-[120px] left-0 xl:left-20 flex-col flex items-center justify-center">
+                <section className="text-white py-20 relative top-[140px] sm:top-[180px] left-0 xl:left-20 flex-col flex items-center justify-center">
                     <div className="container mx-auto px-4">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center xl:text-start"><span className='text-[#eee]'>Jagsco Interiors</span></h1>
                         <p className='max-w-3xl text-[15px] mb-8 text-center xl:text-start'>Jagsco is your go-to destination for exquisite home decor that blends style and sophistication. We offer a curated selection of elegant furnishings, unique accents, and custom pieces designed to elevate your living spaces.</p>
@@ -40,7 +40,7 @@ const Homepage = () => {
                     </div>
                 </section>
                 <section>
-                    <div className="hidden relative w-[500px] 2xl:w-[650px] mx-auto xl:flex items-center justify-center top-[100px] left-[100px] 2xl:left-[140px] mr-36">
+                    <div className="hidden relative w-[500px] 2xl:w-[650px] mx-auto xl:flex items-center justify-center top-[180px] left-[100px] 2xl:left-[140px] mr-36">
                         <div className="slider">
                             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                                 {slides.map((slide, index) => (
