@@ -19,13 +19,10 @@ const Navbar = () => {
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <a href="#">
-                                <Image src={icon} alt="icon" width={30} height={30} />
+                                <Image src={icon} alt="icon" className='relative top-4 w-[150px] xl:w-[180px]' />
                             </a>
-                            <div className="ml-2 md:block">
-                                <a className="text-white text-xl font-bold" href="#">Jagsco Interiors</a>
-                            </div>
                         </div>
-                        <div className="hidden xl:flex md:ml-6 mt-2">
+                        <div className="hidden xl:flex md:ml-6 mt-4">
                             <ul className="flex space-x-4">
                                 <li>
                                     <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Furnishing</Link>
