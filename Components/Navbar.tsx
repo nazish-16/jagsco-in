@@ -1,28 +1,38 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import icon from '../app/images/icon.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 0);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <div>
-            <nav className={`relative top-0 left-0 w-full z-50 opacity-100 transition-colors duration-300`} id='home'>
+            <nav className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${scrolled ? 'bg-[#022e2c]' : 'bg-transparent'}`}>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <a href="#">
-                                <Image src={icon} alt="icon" className='relative top-4 w-[150px] xl:w-[180px]' />
+                                <Image src={icon} alt="icon" className='relative top-3 w-[150px] xl:w-[180px]' />
                             </a>
                         </div>
-                        <div className="hidden xl:flex md:ml-6 mt-4">
+                        <div className="hidden xl:flex md:ml-6 mt-3">
                             <ul className="flex space-x-4">
                                 <li>
                                     <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Furnishing</Link>
@@ -54,7 +64,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`xl:hidden bg-[#064747] bg-opacity-90 fixed inset-0 z-50 transition-opacity duration-300 ${menuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                <div className={`xl:hidden bg-[#022e2c] bg-opacity-90 fixed inset-0 z-50 transition-opacity duration-300 ${menuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                     <div className="flex justify-end h-16 items-center px-4">
                         <button
                             onClick={toggleMenu}
