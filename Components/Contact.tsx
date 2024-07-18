@@ -4,7 +4,7 @@ import Link from "next/link";
 const Contact = () => (
     <div className="p-8" id="contact">
         <div className="flex flex-col items-center justify-center">
-            <h1 className="text-3xl text-center m-4">Contact with us</h1>
+            <h1 className="text-4xl text-[#454545] font-medium tracking-tighter m-4">Contact with us</h1>
             <p className="max-w-5xl text-center m-4">
                 Contact Jagsco Marble for top-quality marble solutions. Our expert team is ready to assist with all your design and construction needs, ensuring exceptional results.
             </p>
@@ -36,7 +36,7 @@ const Contact = () => (
                             type="text"
                             autoComplete="name"
                             required
-                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-black border-2"
+                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-[#064747] border-2"
                         />
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => (
                             type="email"
                             autoComplete="email"
                             required
-                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-black border-2"
+                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-[#064747] border-2"
                         />
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const Contact = () => (
                             type="text"
                             autoComplete="subject"
                             required
-                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-black border-2"
+                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-[#064747] border-2"
                         />
                     </div>
                 </div>
@@ -89,7 +89,7 @@ const Contact = () => (
                             name="message"
                             autoComplete="message"
                             required
-                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-black border-2"
+                            className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-[#064747] border-2"
                             rows={5}
                         ></textarea>
                     </div>
