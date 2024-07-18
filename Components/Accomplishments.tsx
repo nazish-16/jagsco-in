@@ -11,7 +11,7 @@ const Accomplishments = () => {
             </div>
             <div className='flex flex-row items-center justify-center'>
                 <div>
-                    <Image src={world} alt="" className='w-[200px] cursor-pointer' />
+                    <Image src={world} alt="" className='hidden md:flex w-[200px] cursor-pointer' />
                 </div>
                 <div className='grid grid-cols-2 lg:grid-cols-2 justify-center items-center m-10'>
                     <div className='flex flex-row justify-center items-center p-6'>

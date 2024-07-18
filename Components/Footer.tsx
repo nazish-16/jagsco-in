@@ -13,7 +13,7 @@ const Footer = () => {
                             <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" width={25} className='pb-4' />
                         </a>
                         <a href="/" className='text-[25px] lg:text-2xl text-center font-medium'>Jagsco Interiors</a>
-                        <p className='pt-3 lg:text-start max-w-xl text-center' >"Transforming Spaces with Timeless Elegance and Quality Craftsmanship. Discover the Beauty and Durability of Natural Stone."</p>
+                        <p className='pt-3 lg:text-start max-w-lg text-center' >"Elevate your space with curated home decor that inspires comfort, style, and personal expression."</p>
                     </div>
                     <div className='flex flex-row pt-5 items-center justify-center lg:items-start lg:justify-start'>
                         <a href="https://www.instagram.com">
