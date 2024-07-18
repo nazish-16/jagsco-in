@@ -1,21 +1,20 @@
 import React from 'react'
+import icon from '../app/images/icon.png'
 import Link from 'next/link'
-import icon from '../app/images/icon.png';
-import Image from 'next/image';
+import Image from 'next/image'
 
 const Footer = () => {
     return (
         <div>
-            <div className='flex flex-col md:flex-row p-[100px] mt-10 bg-[#ececec] items-center justify-center lg:justify-between'>
+            <div className='flex flex-col md:flex-row pr-[100px] pl-[100px] mt-10 bg-[#ececec] items-center justify-center xl:justify-between'>
                 <div>
-                    <div className='items-center lg:items-start flex flex-col justify-center'>
+                    <div className='items-center xl:items-start flex flex-col justify-center'>
                         <a href="/">
-                            <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" width={25} className='pb-4' />
+                            <Image src={icon} alt="icon" className='w-[200px] relative top-8' />
                         </a>
-                        <a href="/" className='text-[25px] lg:text-2xl text-center font-medium'>Jagsco Interiors</a>
-                        <p className='pt-3 lg:text-start max-w-lg text-center' >"Elevate your space with curated home decor that inspires comfort, style, and personal expression."</p>
+                        <p className='pt-3 xl:text-start max-w-lg text-center relative bottom-24' >"Elevate your space with curated home decor that inspires comfort, style, and personal expression."</p>
                     </div>
-                    <div className='flex flex-row pt-5 items-center justify-center lg:items-start lg:justify-start'>
+                    <div className='flex flex-row pt-5 items-center justify-center xl:items-start xl:justify-start relative bottom-24'>
                         <a href="https://www.instagram.com">
                             <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000" alt="insta" width={30} className='m-4 hover:translate-y-[-2px] transition-all' />
                         </a>
@@ -27,33 +26,33 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center p-5 xl:p-0'>
-                    <h1 className='text-xl text-center font-medium'>Interiors</h1>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Cabinet</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Cupboards</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Farmhouse</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Industrial</Link>
+                <div className='hidden xl:flex flex-col items-center justify-center p-5 xl:p-0 '>
+                    <h1 className='text-2xl text-center font-medium text-[#064747]'>Interiors</h1>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Cabinet</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Cupboards</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Farmhouse</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Industrial</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center p-5 xl:p-0'>
-                    <h1 className='text-xl text-center font-medium'>Modular</h1>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Furniture</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Homes</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Office</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Closets</Link>
+                <div className='hidden xl:flex flex-col items-center justify-center p-5 xl:p-0'>
+                    <h1 className='text-2xl text-center font-medium text-[#064747]'>Modular</h1>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Furniture</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Homes</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Office</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Closets</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center p-5 xl:p-0'>
-                    <h1 className='text-xl text-center font-medium'>Appliances</h1>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Kitchen</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Laundry</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Heating</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Cleaning</Link>
+                <div className='hidden xl:flex flex-col items-center justify-center p-5 xl:p-0'>
+                    <h1 className='text-2xl text-center font-medium text-[#064747]'>Appliances</h1>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Kitchen</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Laundry</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Heating</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Cleaning</Link>
                 </div>
-                <div className='hidden lg:flex flex-col items-center justify-center p-5 xl:p-0'>
-                    <h1 className='text-xl text-center font-medium'>Wardrobe</h1>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Built-in </Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Sliding Door</Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Mirrored </Link>
-                    <Link href="/" className='mt-4 hover:font-medium transition duration-200 ease-in-out'>Freestanding</Link>
+                <div className='hidden xl:flex flex-col items-center justify-center p-5 xl:p-0'>
+                    <h1 className='text-2xl text-center font-medium text-[#064747]'>Wardrobe</h1>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Built-in </Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Sliding Door</Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Mirrored </Link>
+                    <Link href="/" className='mt-4 transition ease hover:underline hover:underline-offset-1'>Freestanding</Link>
                 </div>
             </div>
         </div >
