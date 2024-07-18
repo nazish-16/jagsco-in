@@ -14,8 +14,8 @@ const Footer = () => {
                         <a href="/">
                             <Image src={icon} alt="icon" className='w-[200px] relative top-8' />
                         </a>
-                        <p className='pt-3 xl:text-start max-w-lg text-center relative bottom-24'>
-                            "Elevate your space with curated home decor that inspires comfort, style, and personal expression."
+                        <p className='pt-3 xl:text-start max-w-lg xl:max-w-lg text-center relative bottom-24'>
+                            "Transform your space into a sanctuary with Jagsco's elegant - <br />and stylish home decor where every detail tells a story."
                         </p>
                     </div>
                     <div>
