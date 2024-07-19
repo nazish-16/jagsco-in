@@ -28,29 +28,29 @@ const Navbar = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
-                            <a href="#">
+                            <a href="/">
                                 <Image src={icon} alt="icon" className='relative top-3 w-[150px] xl:w-[180px]' />
                             </a>
                         </div>
-                        <div className="hidden xl:flex md:ml-6 mt-3">
+                        <div className="hidden xl:flex md:ml-6 mt-1">
                             <ul className="flex space-x-4">
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Furnishing</Link>
+                                    <Link href="/furnishing" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Furnishing</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Modules</Link>
+                                    <Link href="/kitchen" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Modules</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Wardrobes</Link>
+                                    <Link href="/wardrobes" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Wardrobes</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Home Decor</Link>
+                                    <Link href="/home" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Home Decor</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Appliances</Link>
+                                    <Link href="/appliances" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Appliances</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-5">Accessories</Link>
+                                    <Link href="/accessories" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out m-4">Accessories</Link>
                                 </li>
                             </ul>
                         </div>
@@ -76,23 +76,23 @@ const Navbar = () => {
                     <div className="flex flex-col items-center justify-center h-full">
                         <ul className="flex flex-col items-center space-y-10 justify-center">
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Furnishing</Link>
+                                <Link href="/furnishing" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Furnishing</Link>
                             </li>
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Modules
+                                <Link href="/kitchen" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Modules
                                 </Link>
                             </li>
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Home Decor</Link>
+                                <Link href="/home" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Home Decor</Link>
                             </li>
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Wardrobes</Link>
+                                <Link href="/wardrobes" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Wardrobes</Link>
                             </li>
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Appliances</Link>
+                                <Link href="/appliances" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Appliances</Link>
                             </li>
                             <li className="animate-slide-in">
-                                <Link href="#" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Accessories</Link>
+                                <Link href="/accessories" className="nav-link text-white hover:text-opacity-60 transition duration-300 ease-in-out">Accessories</Link>
                             </li>
                         </ul>
                     </div>
