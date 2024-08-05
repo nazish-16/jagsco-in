@@ -11,6 +11,7 @@ import Navbar from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import Contact from '@/Components/Contact';
 import Store from '@/Components/Store';
+import Miles from '@/Components/Miles';
 
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
@@ -88,6 +89,9 @@ export default function Home() {
       </MotionComponent>
       <MotionComponent variants={zoomIn}>
         <Brands />
+      </MotionComponent>
+      <MotionComponent variants={zoomIn}>
+        <Miles />
       </MotionComponent>
       <MotionComponent variants={zoomIn}>
         <Contact />
