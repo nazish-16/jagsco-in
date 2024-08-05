@@ -104,21 +104,21 @@ const Contact = () => (
                 </div>
             </form>
             <div className="flex flex-col border-2 border-[#eee] rounded-md">
-                <h1 className="p-5 text-black font-medium text-xl underline underline-offset-1">Jagsco Interiors</h1>
+                <h1 className="p-4 text-[#022a29] font-medium text-xl underline underline-offset-1">Jagsco Interiors</h1>
                 <div className="bg-white p-5 flex flex-row  space-x-1 items-center justify-center">
                     <img src="https://img.icons8.com/?size=100&id=67384&format=png&color=000000" alt="home" className="w-10" />
                     <h1 className="max-w-sm pl-1">Anand Vihar Complex, Shop No.6, #8-1-329/1, Shaikpet, Tolichowki, Hyderabad - 500008, Telangana, India.</h1>
                 </div>
-                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                <div className="bg-white p-4 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=ys7uxdxrK9MF&format=png&color=000000" alt="home" className="w-10" />
                     <Link href="tel:9030456013">Phone: <span className="hover:underline hover:underline-offset-1 underline-offset-0 ">+91-9030456013</span></Link>
                 </div>
-                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                <div className="bg-white p-4 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=12921&format=png&color=000000" alt="home" className="w-10" />
                     <Link href="tel:8919277716">
                         Mobile: <span className="hover:underline hover:underline-offset-1 underline-offset-0 ">+91-8919277716</span></Link>
                 </div>
-                <div className="bg-white p-5 flex flex-row space-x-2 items-center">
+                <div className="bg-white p-4 flex flex-row space-x-2 items-center">
                     <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="home" className="w-10" />
                     <Link href="mailto:info.jagsco@gmail.com">
                         Email: <span className="hover:underline hover:underline-offset-1 underline-offset-0 ">info.jagsco@gmail.com</span></Link>
