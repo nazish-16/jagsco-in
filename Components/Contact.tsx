@@ -4,7 +4,7 @@ import Link from "next/link";
 const Contact = () => (
     <div className="p-8" id="contact">
         <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#454545] font-medium tracking-tighter m-4">Contact with us</h1>
+            <h1 className="text-4xl text-[#454545] font-medium tracking-tighter m-4">Contact us</h1>
             <p className="max-w-5xl text-center m-4">
                 Contact Jagsco Marble for top-quality marble solutions. Our expert team is ready to assist with all your design and construction needs, ensuring exceptional results.
             </p>
